@@ -14,7 +14,8 @@ public class Main
 
         try
         {
-            PrintWriter writer = new PrintWriter(file); // now we create a print writer to write to the new text file we made thats why we passed in the file we just made in the brackets. Also we wrap it in a try catch because otherwise we get an error the ide does this for us.
+            PrintWriter writer = new PrintWriter(file); // now we create a print writer to write to the new text file we made thats why we passed
+            // in the file we just made in the brackets. Also we wrap it in a try catch because otherwise we get an error the ide does this for us.
 
             writer.println("ALi Malik"); // writing some students to the file
             writer.println(90);
