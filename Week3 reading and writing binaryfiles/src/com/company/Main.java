@@ -8,7 +8,8 @@ public class Main {
 
     public static void main(String[] args)
     {
-        File file = new File("rose-blue.jpg"); // create a new file that we are going to write to and pass it the file we want to readfrom.
+        File file = new File("rose-blue.jpg"); // create a new file that we are going to write to and pass it the file we want to
+        // readfrom.
 
         FileInputStream in; // we are going to usr the FileInputStream to read from the binary file
         FileOutputStream out; // we are going to use the FileOutputStream to write the binary file
