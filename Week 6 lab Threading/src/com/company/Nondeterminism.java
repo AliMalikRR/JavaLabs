@@ -12,7 +12,6 @@ public class Nondeterminism
             {
                 this.message = message;
             }
-
             public void run()
             {
                 for (int i = 0; i < 10; i++)
