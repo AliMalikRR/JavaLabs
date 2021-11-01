@@ -1,5 +1,4 @@
 package com.company;
-
 import java.util.GregorianCalendar;
 
 public class Nondeterminism
@@ -21,7 +20,6 @@ public class Nondeterminism
                 }
             }
         }
-
         public static void main(String[] args) throws Exception
         {
             Greeter g1 = new Greeter("Hello");
