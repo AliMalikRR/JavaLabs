@@ -3,7 +3,9 @@ import java.util.GregorianCalendar;
 
 public class Nondeterminism
 {
-        static class Greeter implements Runnable
+    // we need to do extends thread to make multiple threads in Java. Creating multiple threads allows you to
+    // run multiple paths of code at the same time.
+        static class Greeter extends Thread
         {
             private String message;
 
@@ -11,7 +13,7 @@ public class Nondeterminism
             {
                 this.message = message;
             }
-            public void run()
+            public void run() // we are overriding the greeter classes run function and now all the code we want to run in multiple threads here
             {
                 for (int i = 0; i < 10; i++)
                 {
